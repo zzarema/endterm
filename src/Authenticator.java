@@ -11,7 +11,7 @@
             System.out.println("Enter password:");
             String password = scanner.nextLine();
 
-            // Проверяем правильность введенных данных
+
             if (authenticate(username, password)) {
                 System.out.println("Authentication successful!");
                 Main.main(new String[0]);
